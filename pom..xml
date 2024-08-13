@@ -54,6 +54,21 @@
             <scope>runtime</scope>
         </dependency>
 
+        <!-- PostgreSQL JDBC Driver -->
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.5.1</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.24</version>
+            <scope>provided</scope>
+        </dependency>
+
         <!-- Validação -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -73,13 +88,6 @@
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
 
-        <!-- Spring Boot DevTools (apenas para desenvolvimento) -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-devtools</artifactId>
-            <scope>runtime</scope>
-            <optional>true</optional>
-        </dependency>
 
         <!-- Lombok (para reduzir o boilerplate de código) -->
         <dependency>
@@ -87,6 +95,13 @@
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
+
+        <dependency>
+            <groupId>org.modelmapper</groupId>
+            <artifactId>modelmapper</artifactId>
+            <version>3.1.1</version>
+        </dependency>
+
 
     </dependencies>
 
